@@ -6,3 +6,28 @@
     text-align: center;
     padding: 20px 0;
 }
+.header nav {
+    background: black;
+}
+
+.header nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.header nav ul li:hover a {
+    background: gray;
+}
