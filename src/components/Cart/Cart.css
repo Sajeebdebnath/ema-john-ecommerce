@@ -1,0 +1,30 @@
+button.cart_button {
+    background: #f0c14b;
+    border: 1px solid #846a29;
+    padding: 5px 50px;
+    border-radius: 3px;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
+    color: #111;
+    margin-top: 10px;
+    text-transform: unset;
+}
+.cart-info {
+    text-align: center;
+}
+
+.cart-info table {
+    text-align: left;
+}
+
+.cart-info table tr td {
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.cart-info .order-total td {
+    font-size: 18px;
+    font-weight: 600;
+    color: #d74006;
+}
